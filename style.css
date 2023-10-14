@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+}
+
+.topleft{
+    width: 50%;
+    color:black;
+}
+
+.topright{
+    width: 50%;
+}
+
+.section1{
+    max-height: 100vh;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.topright .img1{
+    width: 500px;
+}
+
+.compimg{
+width: 290px;
+}
+
+.section2 h1{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: 4px underline solid #5e4192
+}
+
+.section2{
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.section2 h2{
+    text-decoration: 3px underline solid #5e4192;
+}
+
+.section2 .para{
+    padding: 0px 150px;
+}
+
+.box{
+    padding: 8px 4px;
+    margin: 15px 25px;
+    min-width: 20vw;
+    border-radius: 10px;
+    border: 3px solid #5e4192;
+}
+
+.section3 h1{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: 4px underline solid #5e4192
+}
+
+.course{
+    width: 500px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+
+.section3{
+    height: 100vh;
+}
+
+.mid-left{
+    width: 50%;
+}
+
+.mid-right{
+    width: 50%;
+}
+
+.mid-right li{
+    list-style-type: none;
+    padding: 23px 50px;
+}
+
+.courses{
+    padding: 8px 4px;
+    margin: 15px 25px;
+    border: 2px solid #5e4192 ;
+    background-color: #ead2ef;
+    border-radius: 10px;
+    font-family: 'Skranji', cursive;
+    cursor: pointer;
+}
+
+.courses:hover{
+    background-color: yellow;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.3s all ease;
+}

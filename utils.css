@@ -1,0 +1,102 @@
+.min-h-screen{
+    min-height: 100vh;
+}
+.bg-red{
+    background-color: red;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.navbar{
+    display: flex;
+    height: 67px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0px 12px;
+}
+
+.flex{
+    display: flex;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.font-Bold{
+    font-weight: bolder;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.my-1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.px-2{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.text-blue{
+    color: #7e22ce;
+}
+
+.btn{
+    color: white;
+    background-color: #7e22ce;
+    padding: 8px 8px;
+    font-family: 'Ubuntu Condensed', sans-serif ;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.btn:hover{
+    border:1px solid white;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.hovering:hover{
+    cursor: pointer;
+    transition: 0.2s all ease;
+    font-size: 1rem;
+    padding: 8px 8px;
+    color: white;
+    border: 1px solid #7e22ce;
+    background-color: #7e22ce;
+    border-radius: 6px;
+}
+
+.para{
+    padding: 0px 115px;
+}
